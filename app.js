@@ -1,0 +1,1 @@
+// für anwendungen nutzbar

@@ -1,0 +1,19 @@
+node installieren
+nodemon installieren für die entwicklungszeit
+  entwickeln der anwendung
+    siehe:
+          htmlServer.js
+          jsonServer.js
+          express1.js
+express installieren wenn benötigt
+ejs installieren wenn benötigt
+  um aus .ejs daten im html zu verwenden <%= myData%> schreiben
+
+  app.get('/profile/:name', function(req, res){
+    res.render('profile', {person: req.params.name})
+  });
+  hier werden in der .js datei daten über die req variale erhalten.
+  mit req.params.name wird der string aus der adresszeile entnommen.
+body parser installieren wenn benötigt
+  stellt middleware zur verfügung die bei post request eingaben entgegennimmt
+  und über funktion zur verfügung stellt.
